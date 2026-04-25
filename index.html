@@ -3,29 +3,64 @@
 <head>
   <style>
     main {
-      background-color: green;
+      background-color: rgba(98, 120, 248, 0.89);
       display: flex;
       padding: 200px;
       border: 50px;
       gap: 20px;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+
+    }
+
+    .main {
+      background-color: rgba(98, 120, 248, 0.89);
+      display: flex;
+      border: 50px;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
     }
 
     .game {
       display: flex;
       gap: 20px;
-      flex-dirction: ;
+
+    }
+
+    .game2 {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
     }
 
     .card {
       border: 2px solid black;
       border-radius: 10px;
-      background-color: grey;
+      background-color: rgb(16, 90, 248);
+    }
+
+    .card img {
+      border: 2px solid black;
+      border-radius: 10px;
+      background-color: rgb(16, 90, 248);
+      display: block;
+      margin: 0 auto;
     }
 
     .button {
       padding: 20px 40px;
       font-size: 100px;
     }
+
+    .button2 {
+      padding: 20px 40px;
+      font-size: 100px;
+    }
+
 
     .centertitle {
       position: absolute;
@@ -34,15 +69,30 @@
 
     h1 {
       font-size: 50px;
+      background-color: blue;
+      color: azure;
+      font-family: Georgia;
     }
 
     .Workinprogress {
       font-size: 20%;
-     
     }
-     .pop-list{
-    font-size:   
-     }
+
+    .big-text {
+      font-size: 300%;
+      padding: 5%;
+      background-color: rgb(16, 90, 248);
+    }
+
+    body {
+      background-color: black;
+    }
+
+    footer {
+      background-color: blue;
+      display: flex;
+      text-align: center;
+    }
   </style>
   <title>the total Verse</title>
 </head>
@@ -53,8 +103,8 @@
   </div>
   <h1> the total Verse</h1>
   <main>
-    <p class="pop-list">Popular</p>
-    <div class="card" style="width: 18rem;>
+    <div class="big-text">Popular</div>
+    <div class="card" style="width: 18rem;">
       <div class=" game">
       <h5 class="card-title">button</h5>
       <img src="Button.png" width="75" height="75" />
@@ -62,8 +112,8 @@
         <a href="level.html"> <button type="button">Play</button></a>
       </div>
     </div>
-
-    <div class="card" style="width: 18rem;>
+    </div>
+    <div class="card" style="width: 18rem;">
       <div class=" game">
       <h5 class="card-title">choose</h5>
       <img src="choose.png" width="75" height="75" />
@@ -75,7 +125,7 @@
     </div>
     </div>
 
-    <div class="card" style="width: 18rem;>
+    <div class="card" style="width: 18rem;">
       <div class=" game">
       <h5 class="card-title">The RPG Fighting Game</h5>
       <img src="placeholder.png" width="75" height="75" />
@@ -84,8 +134,51 @@
         <p Class="Workinprogress">Work in Progess</p>
       </div>
     </div>
+    </div>
   </main>
-  <footer></footer>
+
+
+  <div class="main">
+    <div class="big-text">newer</div>
+
+    <!-- Card 1 -->
+    <div class="card" style="width: 18rem;">
+      <div class=" game">
+      <h5 class="card-title">The RPG Fighting Game</h5>
+      <img src="placeholder.png" width="75" height="75" />
+      <div class="button">
+        <a href="TheRPGFightingGame.html"><button disabled>Play</button></a>
+        <p Class="Workinprogress">Work in Progess</p>
+      </div>
+    </div>
+  </div>
+  <!-- Card 2 -->
+  <div class="card" style="width: 18rem;">
+      <div class=" game">
+    <h5 class="card-title">choose</h5>
+    <img src="choose.png" width="75" height="75" />
+    <div class="button">
+      <a href="choose1.html"><button disabled>Play</button></a>
+      <p Class="Workinprogress">Work in Progess</p>
+    </div>
+  </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card" style="width: 18rem;">
+      <div class=" game">
+    <h5 class="card-title">button</h5>
+    <img src="Button.png" width="75" height="75" />
+    <div class="button">
+      <a href="level.html"> <button type="button">Play</button></a>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <footer>
+    <p>copyright; 2026 the total Verse. All rights reserved.</p>
+  </footer>
 </body>
 
 </html>
